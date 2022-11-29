@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reguest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="guru.pmvungu.example.com.guru.Activity_swap"
+    android:background="@drawable/newloginrs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:paddingTop="@dimen/activity_view_margin_top_0"
+            android:visibility="visible">
+
+            <!--controls-->
+
+            <View
+                android:id="@+id/LineSIMInfo0"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                />
+
+            <View
+                android:id="@+id/LineSIMInfo01"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/transparent"
+                android:layout_below="@+id/LineSIMInfo0"
+                />
+
+            <TextView
+                android:id="@+id/lblSIMInfoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                              android:text="@string/str_Sim_Info"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/LineSIMInfo01"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:background="#a01775"
+                />
+            <View
+                android:id="@+id/LineSIMInfo"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_below="@+id/lblSIMInfoInfo"
+                />
+            <View
+                android:id="@+id/LineSIMInfo1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/transparent"
+                android:layout_below="@+id/LineSIMInfo"
+                />
+
+            <TextView
+                android:id="@+id/lblNDC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="10dp"
+                android:text="Code Reseau"
+                android:textSize="16sp"
+                android:layout_below="@+id/LineSIMInfo1"/>
+
+            <Spinner
+                android:id="@+id/spinnerNDC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblNDC"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+
+            <TextView
+                android:id="@+id/lblMSISDN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/spinnerNDC"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:text="MSISDN"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtMSISDN"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="7"
+                android:inputType="number"
+                android:layout_below="@+id/lblMSISDN"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+
+            <TextView
+                android:id="@+id/lblICC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtMSISDN"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:text="ICCID"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtICC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="16"
+                android:inputType="number"
+                android:layout_below="@+id/lblICC"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+<!--
+            <Button
+                android:id="@+id/btnSim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtICC"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/btn_prv"
+                android:text="Validate sim" />
+
+-->
+            <TextView
+                android:id="@+id/lblEmptySeparator1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/strEmpty"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/txtICC"
+                />
+
+            <View
+                android:id="@+id/LinePersonalInfo0"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_below="@+id/lblEmptySeparator1"
+                />
+            <View
+                android:id="@+id/LinePersonalInfo01"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/transparent"
+                android:layout_below="@+id/LinePersonalInfo0"
+                />
+
+            <TextView
+                android:id="@+id/lblPersonalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_PersonalInfo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/LinePersonalInfo01"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:background="#a01775"
+                />
+            <View
+                android:id="@+id/LinePersonalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_below="@+id/lblPersonalInfo"
+                />
+            <View
+                android:id="@+id/LinePersonalInfo1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/transparent"
+                android:layout_below="@+id/LinePersonalInfo"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/lblFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom"
+                android:textSize="16sp"
+                android:layout_below="@+id/LinePersonalInfo1"/>
+
+            <EditText
+                android:id="@+id/txtFirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZèéêëàâìíîïùúûüç"
+                android:maxLength="100"
+                android:layout_below="@+id/lblFirstName"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+
+            <TextView
+                android:id="@+id/lblFatherName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFirstName"
+                android:layout_marginTop="3dp"
+                android:text="Prenom"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtFatherName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZèéêëàâìíîïùúûüç"
+                android:maxLength="50"
+                android:layout_below="@+id/lblFatherName"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+
+            <TextView
+                android:id="@+id/lblLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFatherName"
+                android:layout_marginTop="3dp"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZèéêëàâìíîïùúûüç"
+                android:text="Postnom"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtLastName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZèéêëàâìíîïùúûüç"
+                android:maxLength="100"
+                android:layout_below="@+id/lblLastName"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+
+            <TextView
+                android:id="@+id/lblGender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtLastName"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/str_Gender"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinnerGender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblGender"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+<!--
+            <Button
+                android:id="@+id/btnBirthDatePick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="showDatePickerDialog"
+                android:text="@string/str_Birth_Date"
+                android:textSize="12sp"
+                android:layout_below="@+id/spinnerGender"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                />
+-->
+            <TextView
+                android:id="@+id/lblBOD"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/spinnerGender"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/str_Birth_Date"
+                android:textSize="16sp" />
+
+
+            <ImageButton
+                android:id="@+id/btnBirthDatePick"
+                android:layout_width="38dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/lblBOD"
+                android:background="@drawable/cal_icon"
+
+                android:onClick="showDatePickerDialog" />
+
+
+            <EditText
+                android:id="@+id/lblBirthDateValue"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/btnBirthDatePick"
+                android:layout_marginEnd="2dp"
+                android:background="@drawable/rounded_edittext"
+                android:enabled="true"
+                android:onClick="showDatePickerDialog"
+                android:hint="@string/aaaa_mm_dd" />
+
+            <TextView
+                android:id="@+id/lblStreet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:text="Adresse"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/lblBirthDateValue"/>
+
+            <EditText
+                android:id="@+id/txtStreet"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:maxLength="100"
+                android:layout_below="@+id/lblStreet"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+
+            <TextView
+                android:id="@+id/lblEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtStreet"
+                android:layout_marginTop="3dp"
+                android:text="@string/str_Email"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:maxLength="100"
+                android:layout_below="@+id/lblEmail"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                />
+
+            <TextView
+                android:id="@+id/lbltypeId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtEmail"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:paddingTop="0dp"
+                android:text="ID Type"
+                android:textSize="16sp" />
+            <Spinner
+                android:dropDownHeight="10dp"
+                android:id="@+id/stypeId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lbltypeId"
+                android:textSize="16sp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+
+                />
+
+            <TextView
+                android:id="@+id/lblIdnumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/stypeId"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:text="ID Number"
+
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtIdnumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="100"
+                 android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_below="@+id/lblIdnumber"/>
+
+            <Button
+                android:id="@+id/btnCapture2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtIdnumber"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:drawableRight="@android:drawable/ic_menu_camera"
+                android:onClick="CaptureCaptureIdCardSide1"
+                android:text="@string/str_Capture2"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/camera_idcard1_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/str_Capture2"
+                android:freezesText="true"
+                android:layout_below="@+id/btnCapture2"/>
+
+
+            <Button
+                android:id="@+id/btnPersonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/camera_idcard1_image"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:drawableRight="@android:drawable/ic_menu_send"
+                android:onClick="onNextClick"
+                android:text="Validate" />
+
+            <TextView
+                android:id="@+id/tvide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnPersonal"
+                android:layout_marginTop="15dp"/>
+
+            <!--references MSISDN swap -->
+
+            <View
+                android:id="@+id/LinePersonalInfo4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:layout_below="@+id/tvide"
+                />
+            <View
+                android:id="@+id/LinePersonalInfo03"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/transparent"
+                android:layout_below="@+id/LinePersonalInfo4"
+                />
+
+            <TextView
+                android:id="@+id/lblPersonalInfo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="References"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/LinePersonalInfo03"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:background="#a01775"
+                />
+            <View
+                android:id="@+id/LinePersonalInfo3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_below="@+id/lblPersonalInfo3"
+                />
+            <View
+                android:id="@+id/LinePersonalInfo5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/transparent"
+                android:layout_below="@+id/LinePersonalInfo3"
+                />
+
+
+            <TextView
+                android:id="@+id/lblMSISDN1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:text="MSISDN 1"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:layout_below="@+id/LinePersonalInfo5"  />
+
+            <EditText
+                android:id="@+id/txtMSISDN1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblMSISDN1"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="12"
+                android:padding="5dip" />
+
+
+            <TextView
+                android:id="@+id/lblMSISDN2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtMSISDN1"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:text="MSISDN 2"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtMSISDN2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblMSISDN2"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="12"
+                android:padding="5dip" />
+            <TextView
+                android:id="@+id/lblMSISDN3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:text="MSISDN 3"
+                android:textSize="16sp"
+                android:layout_below="@+id/txtMSISDN2"  />
+
+            <EditText
+                android:id="@+id/txtMSISDN3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="100"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_below="@+id/lblMSISDN3" />
+
+            <TextView
+                android:id="@+id/lblMSISDN4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtMSISDN3"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:text="MSISDN 4"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtMSISDN4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="12"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_below="@+id/lblMSISDN4" />
+
+            <TextView
+                android:id="@+id/lblMSISDN5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtMSISDN4"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:text="MSISDN 5"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtMSISDN5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblMSISDN5"
+                android:background="@drawable/rounded_edittext"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="12"
+                android:padding="5dip" />
+
+
+            <Button
+                android:id="@+id/validateButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtMSISDN5"
+                android:layout_marginStart="169dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:onClick="onValidateClick"
+                android:text="Uploader"
+                android:drawableRight="@android:drawable/ic_menu_save" />
+
+
+            <Button
+                android:id="@+id/btnBackSim"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtMSISDN5"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:drawableRight="@android:drawable/ic_menu_revert"
+
+                android:onClick="onPrecedentClick"
+                android:text="Precedent" />
+
+
+            <TextView
+                android:id="@+id/lblEmptySeparator4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/validateButton"
+                />
+
+            <TextView
+                android:id="@+id/lblError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strEmpty"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/lblEmptySeparator4"
+                android:textColor="@color/opaque_red"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

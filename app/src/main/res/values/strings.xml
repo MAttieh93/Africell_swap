@@ -1,0 +1,664 @@
+<resources>
+    <string name="app_name">AFR SWAP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="strEmpty"></string>
+    <string name="agence">Agence</string>
+    <string name="numero_compte">Numero Compte</string>
+    <string name="aaaa_mm_dd">mm/dd/aaaa</string>
+    <string name="date_retrait">Date Retrait</string>
+
+    <string name="account_login">Account Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+
+    <string name="code_pin">CODE PIN :</string>
+    <string name="veuillez_noter_votre_code_pin">Veuillez noter votre code PIN</string>
+    <string name="motif">Motif</string>
+    <string name="devise">Devise</string>
+    <string name="montant">Montant</string>
+    <string name="str_Personal_Info">Info Personel</string>
+    <string name="africellrdc">Africell RDC.</string>
+    <string name="bsudept">BSU/VAS.</string>
+    <string name="str_Capture1">Take Picture &#38; uploader</string>
+    <string name="selectsite">select Site</string>
+
+    <string name="str_PersonalInfo">Personal Info.</string>
+    <string name="str_Sim_Info">SIM Info.</string>
+    <string-array name="NDC_array">
+        <item>090</item>
+        <item>091</item>
+    </string-array>
+
+    <string-array name="Gender_array">
+        <item></item>
+        <item>Feminin</item>
+        <item>Masculin</item>
+    </string-array>
+    <string-array name="Education_array">
+        <item></item>
+        <item>Illetre</item>
+        <item>Letre</item>
+        <item>Elementaire</item>
+        <item>Preparatoire</item>
+        <item>Secondaire</item>
+        <item>College</item>
+    </string-array>
+    <string-array name="Nationality_array">
+        <item>Afghan</item>
+        <item>Albanian</item>
+        <item>Algerian</item>
+        <item>American</item>
+        <item>Andorran</item>
+        <item>Angolan</item>
+        <item>Antiguans</item>
+        <item>Argentinean</item>
+        <item>Armenian</item>
+        <item>Australian</item>
+        <item>Austrian</item>
+        <item>Azerbaijani</item>
+        <item>Bahamian</item>
+        <item>Bahraini</item>
+        <item>Bangladeshi</item>
+        <item>Barbadian</item>
+        <item>Barbudans</item>
+        <item>Batswana</item>
+        <item>Belarusian</item>
+        <item>Belgian</item>
+        <item>Belizean</item>
+        <item>Beninese</item>
+        <item>Bhutanese</item>
+        <item>Bolivian</item>
+        <item>Bosnian</item>
+        <item>Brazilian</item>
+        <item>British</item>
+        <item>Bruneian</item>
+        <item>Bulgarian</item>
+        <item>Burkinabe</item>
+        <item>Burmese</item>
+        <item>Burundian</item>
+        <item>Cambodian</item>
+        <item>Cameroonian</item>
+        <item>Canadian</item>
+        <item>Cape Verdean</item>
+        <item>Central African</item>
+        <item>Chadian</item>
+        <item>Chilean</item>
+        <item>Chinese</item>
+        <item>Colombian</item>
+        <item>Comoran</item>
+        <item>Congolese</item>
+        <item>Costa Rican</item>
+        <item>Croatian</item>
+        <item>Cuban</item>
+        <item>Cypriot</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Djibouti</item>
+        <item>Dominican</item>
+        <item>Dutch</item>
+        <item>East Timorese</item>
+        <item>Ecuadorean</item>
+        <item>Egyptian</item>
+        <item>Emirian</item>
+        <item>Equatorial Guinean</item>
+        <item>Eritrean</item>
+        <item>Estonian</item>
+        <item>Ethiopian</item>
+        <item>Fijian</item>
+        <item>Filipino</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Gabonese</item>
+        <item>Gambian</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Ghanaian</item>
+        <item>Greek</item>
+        <item>Grenadian</item>
+        <item>Guatemalan</item>
+        <item>Guinea-Bissauan</item>
+        <item>Guinean</item>
+        <item>Guyanese</item>
+        <item>Haitian</item>
+        <item>Herzegovinian</item>
+        <item>Honduran</item>
+        <item>Hungarian</item>
+        <item>I-Kiribati</item>
+        <item>Icelander</item>
+        <item>Indian</item>
+        <item>Indonesian</item>
+        <item>Iranian</item>
+        <item>Iraqi</item>
+        <item>Irish</item>
+        <item>Israeli</item>
+        <item>Italian</item>
+        <item>Ivorian</item>
+        <item>Jamaican</item>
+        <item>Japanese</item>
+        <item>Jordanian</item>
+        <item>Kazakhstani</item>
+        <item>Kenyan</item>
+        <item>Kittian and Nevisian</item>
+        <item>Kuwaiti</item>
+        <item>Kyrgyz</item>
+        <item>Laotian</item>
+        <item>Latvian</item>
+        <item>Lebanese</item>
+        <item>Liberian</item>
+        <item>Libyan</item>
+        <item>Liechtensteiner</item>
+        <item>Lithuanian</item>
+        <item>Luxembourger</item>
+        <item>Macedonian</item>
+        <item>Malagasy</item>
+        <item>Malawian</item>
+        <item>Malaysian</item>
+        <item>Maldivan</item>
+        <item>Malian</item>
+        <item>Maltese</item>
+        <item>Marshallese</item>
+        <item>Mauritanian</item>
+        <item>Mauritian</item>
+        <item>Mexican</item>
+        <item>Micronesian</item>
+        <item>Moldovan</item>
+        <item>Monacan</item>
+        <item>Mongolian</item>
+        <item>Moroccan</item>
+        <item>Mosotho</item>
+        <item>Motswana</item>
+        <item>Mozambican</item>
+        <item>Namibian</item>
+        <item>Nauruan</item>
+        <item>Nepalese</item>
+        <item>New Zealander</item>
+        <item>Nicaraguan</item>
+        <item>Nigerian</item>
+        <item>Nigerien</item>
+        <item>North Korean</item>
+        <item>Northern Irish</item>
+        <item>Norwegian</item>
+        <item>Omani</item>
+        <item>Pakistani</item>
+        <item>Palauan</item>
+        <item>Panamanian</item>
+        <item>Papua New Guinean</item>
+        <item>Paraguayan</item>
+        <item>Peruvian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Qatari</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Rwandan</item>
+        <item>Saint Lucian</item>
+        <item>Salvadoran</item>
+        <item>Samoan</item>
+        <item>San Marinese</item>
+        <item>Sao Tomean</item>
+        <item>Saudi</item>
+        <item>Scottish</item>
+        <item>Senegalese</item>
+        <item>Serbian</item>
+        <item>Seychellois</item>
+        <item>Sierra Leonean</item>
+        <item>Singaporean</item>
+        <item>Slovakian</item>
+        <item>Slovenian</item>
+        <item>Solomon Islander</item>
+        <item>Somali</item>
+        <item>South African</item>
+        <item>South Korean</item>
+        <item>Spanish</item>
+        <item>Sri Lankan</item>
+        <item>Sudanese</item>
+        <item>Surinamer</item>
+        <item>Swazi</item>
+        <item>Swedish</item>
+        <item>Swiss</item>
+        <item>Syrian</item>
+        <item>Taiwanese</item>
+        <item>Tajik</item>
+        <item>Tanzanian</item>
+        <item>Thai</item>
+        <item>Togolese</item>
+        <item>Tongan</item>
+        <item>Trinidadian or Tobagonian</item>
+        <item>Tunisian</item>
+        <item>Turkish</item>
+        <item>Tuvaluan</item>
+        <item>Ugandan</item>
+        <item>Ukrainian</item>
+        <item>Uruguayan</item>
+        <item>Uzbekistani</item>
+        <item>Venezuelan</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Yemenite</item>
+        <item>Zambian</item>
+        <item>Zimbabwean</item>
+    </string-array>
+    <string-array name="IdType_array">
+        <item></item>
+        <item>Carte D Identite</item>
+        <item>Carte Electeur</item>
+        <item>Permit de conduire</item>
+        <item>TAX Locale</item>
+        <item>Carte Officier</item>
+        <item>Passport</item>
+        <item>Carte Etudiant</item>
+    </string-array>
+    <string-array name="Town_array_kinshasa">
+        <item></item>
+        <item>Bandalungwa</item>
+        <item>Barumbu</item>
+        <item>Bumbu</item>
+        <item>Gombe</item>
+        <item>kalamu</item>
+        <item>Kasavubu</item>
+        <item>Kimbanseke</item>
+        <item>Kinsenso</item>
+        <item>Kinshasa</item>
+        <item>Kintambo</item>
+        <item>Lemba</item>
+        <item>Limete</item>
+        <item>Lingwala</item>
+        <item>Makala</item>
+        <item>Maluku</item>
+        <item>Masina</item>
+        <item>Matete</item>
+        <item>Mont Ngafula</item>
+        <item>Ndjili</item>
+        <item>Ngaba</item>
+        <item>Ngaliema</item>
+        <item>Ngiri Ngiri  </item>
+        <item>Nsele</item>
+        <item>Selembao</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Town_array_Katanga">
+        <item></item>
+        <item>Ruashi</item>
+        <item>Kampemba</item>
+        <item>Kamalondo</item>
+        <item>Kenya</item>
+        <item>Katuba</item>
+        <item>Lubumbashi</item>
+        <item>Annexe</item>
+        <item>Kolwezi</item>
+        <item>Likazi</item>
+        <item>Kasumbalesa</item>
+        <item>Kipushi</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Town_array_congo">
+        <item></item>
+        <item>Road</item>
+        <item>Matadi</item>
+        <item>Boma</item>
+        <item>Moanda</item>
+
+        <item>Bandundu-ville</item>
+        <item>Kenge</item>
+        <item>Kikwit</item>
+        <item>Masimanimba</item>
+        <item>idiofa</item>
+
+        <item>Other</item>
+    </string-array>
+    <string-array name="Town_array_kikwit">
+        <item></item>
+        <item>Bandundu-ville</item>
+        <item>Kenge</item>
+        <item>Kikwit</item>
+        <item>Masimanimba</item>
+        <item>idiofa</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Town_array_town">
+        <item></item>
+        <item>Kinshasa</item>
+        <item>Bascongo</item>
+        <item>Bandundu</item>
+        <item>Katanga</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="occupationCategory_array">
+        <item></item>
+        <item>NGO Sector</item>
+        <item>Private Sector</item>
+        <item>Public Sector</item>
+        <item>Self-employed\Co. Owner, Privet Business</item>
+        <item>Self-employed\Owner of Handwork, Handicraft</item>
+        <item>Out of Work</item>
+    </string-array>
+    <string-array name="subOccupationCategory_array">
+        <item></item>
+        <item>Accountant</item>
+        <item>Actor</item>
+        <item>Architect</item>
+        <item>Banker</item>
+        <item>Bartender</item>
+        <item>Bike Rider</item>
+        <item>Blacksmith</item>
+        <item>Car Washer</item>
+        <item>Carpenter</item>
+        <item>Cashier</item>
+        <item>Civil servant</item>
+        <item>Cleaner</item>
+        <item>Clergy</item>
+        <item>Clerk</item>
+        <item>Coach</item>
+        <item>Comedian</item>
+        <item>Consultant</item>
+        <item>Cook</item>
+        <item>Diamond Dealer</item>
+        <item>Director</item>
+        <item>Disabled</item>
+        <item>Doctor</item>
+        <item>doorkeeper</item>
+        <item>Driller</item>
+        <item>Driver</item>
+        <item>Electrician</item>
+        <item>Engineer</item>
+        <item>Farmer</item>
+        <item>Fisher Man</item>
+        <item>Florist</item>
+        <item>Footballer</item>
+        <item>Forest Ranger</item>
+        <item>Gardener</item>
+        <item>Geologist</item>
+        <item>Hair Dresser</item>
+        <item>Herbalist</item>
+        <item>House Keeper</item>
+        <item>Human Resource Officer</item>
+        <item>Imam</item>
+        <item>Insurer</item>
+        <item>Journalist</item>
+        <item>Laboratory Technician</item>
+        <item>Load Carrier / Loader</item>
+        <item>Magistrate</item>
+        <item>Marine Engineer</item>
+        <item>Mason</item>
+        <item>Matress maker</item>
+        <item>Mechanic</item>
+        <item>Midwife</item>
+        <item>Miner</item>
+        <item>Missionary</item>
+        <item>Nurse</item>
+        <item>Officer (P/M/F)</item>
+        <item>Pastor</item>
+        <item>Pharmacist</item>
+        <item>Photographer</item>
+        <item>Plumber</item>
+        <item>Porter</item>
+        <item>Printing Officer</item>
+        <item>Prison  Officer</item>
+        <item>Quality controller</item>
+        <item>Receptionist</item>
+        <item>Referee</item>
+        <item>Retailer</item>
+        <item>Revenue  Collector</item>
+        <item>Sailors</item>
+        <item>Salesman</item>
+        <item>Sculptor</item>
+        <item>Secretary</item>
+        <item>Security</item>
+        <item>Shoe Marker</item>
+        <item>Statistician</item>
+        <item>Stevedore </item>
+        <item>Store Keeper</item>
+        <item>Surgeon</item>
+        <item>Surgical Assistant</item>
+        <item>Surveyor</item>
+        <item>Tailor</item>
+        <item>Teacher</item>
+        <item>Technician</item>
+        <item>Tele-marketer</item>
+        <item>Telephone Operator</item>
+        <item>Therapist</item>
+        <item>Trader</item>
+        <item>Travel  Agent</item>
+        <item>Watchman</item>
+        <item>Welder</item>
+        <item>Writer</item>
+    </string-array>
+
+    <string name="str_First_Name">Prenom</string>
+    <string name="str_Father_Name">Prenom du pere</string>
+    <string name="str_Last_Name">Nom</string>
+    <string name="str_Gender">Sexe</string>
+    <string name="str_Birth_Date">Date de naissance</string>
+    <string name="str_Email">Email</string>
+    <string name="str_Email_hint">Email@mail.com</string>
+    <string name="str_Education">Education</string>
+    <string name="str_Nationality">Nationalite</string>
+    <string name="str_IdType">Type ID</string>
+    <string name="str_ReferenceNbr">Numero Reference</string>
+
+    <string name="str_Capture2">Prendre Carte ID</string>
+    <string name="str_Capture3">Prendre Carte ID 2</string>
+    <string name="str_Capture4">Prendre Photo de contrat</string>
+    <string name="str_ResidenceAddress">Adresse</string>
+    <string name="str_Town">Cite</string>
+    <string name="str_Street">Rue</string>
+    <string name="str_Occupation">Occupation</string>
+    <string name="str_OccupationCategory">Category</string>
+    <string name="str_OccupationSubCategory">Sub Category</string>
+    <string name="str_Employer">Employer</string>
+    <string name="str_SIMInfo">SIM Info</string>
+    <string name="str_NDC">Code Reseau</string>
+    <string name="str_MSISDN">MSISDN</string>
+    <string name="str_MSISDNHint">1234567</string>
+    <string name="str_ICC">CodeBar Scan</string>
+    <string name="str_ICCHint">12345678</string>
+    <string name="str_Upload">Uploader</string>
+    <string name="str_Query">Requete</string>
+    <string name="str_Birth_Date_fix">Birth Date</string>
+    <string name="str_get_photo">Prendre Photo</string>
+    <string name="str_check_availability">Check Availability</string>
+    <string name="str_create_msisdn">Create MSISDN</string>
+    <string name="str_TableAgent">Table Agent</string>
+    <string name="str_FromICC">From ICC</string>
+    <string name="str_TillICC">Till ICC</string>
+
+
+    <string-array name="cboreporttype">
+        <item>select report type</item>
+        <item>Acceptance</item>
+        <item>Action</item>
+        <item>Audit</item>
+    </string-array>
+    <string-array name="site_array">
+        <item></item>
+        <item>HG</item>
+        <item>Victoire</item>
+        <item>Gombe</item>
+    </string-array>
+    <string-array name="Agence_array">
+        <item></item>
+        <item>HG</item>
+        <item>Victoire</item>
+        <item>Gombe</item>
+    </string-array>
+    <string-array name="Devise_array">
+        <item></item>
+        <item>CDF</item>
+        <item>USD</item>
+    </string-array>
+    <string-array name="Motif_array">
+        <item></item>
+        <item>Depot espèce</item>
+        <item>Retrait espèce</item>
+    </string-array>
+
+    <string-array name="cbosite">
+        <item>Select Site</item>
+        <item>Site ID</item>
+        <item>Site Photo</item>
+    </string-array>
+
+
+    <string-array name="cboconfiguration">
+        <item>Configuration</item>
+        <item>2G</item>
+        <item>2G/3G</item>
+        <item>2G/3G/4G</item>
+    </string-array>
+
+    <string-array name="cbophototype">
+        <item>Choose Picture</item>
+        <item>Antenna Photo</item>
+        <item>Panoramic Photo</item>
+        <item>Site Photo</item>
+    </string-array>
+
+    <string-array name="cbotech">
+        <item>Technology</item>
+        <item>2G</item>
+        <item>3G</item>
+        <item>4G</item>
+        <item>Autre</item>
+    </string-array>
+    <string-array name="cbosector">
+        <item>Sector</item>
+        <item>Sector A</item>
+        <item>Sector B</item>
+        <item>Sector C</item>
+        <item>Sector D</item>
+    </string-array>
+    <string-array name="cbosector3G">
+        <item>Select Sector</item>
+        <item>Sector E</item>
+        <item>Sector F</item>
+        <item>Sector G</item>
+        <item>Sector H</item>
+        <item>Sector I</item>
+        <item>Sector J</item>
+    </string-array>
+    <string-array name="cbosector4G">
+        <item>Sector</item>
+        <item>Sector 1</item>
+        <item>Sector 2</item>
+        <item>Sector 3</item>
+    </string-array>
+
+    <string-array name="cbosectorautre">
+        <item>Sector</item>
+        <item>autre</item>
+
+    </string-array>
+    <string-array name="cbopanorama">
+        <item>Panoramic</item>
+        <item>0 degre</item>
+        <item>30 degre</item>
+        <item>60 degre</item>
+        <item>90 degre</item>
+        <item>120 degre</item>
+        <item>150 degre</item>
+        <item>180 degre</item>
+        <item>210 degre</item>
+        <item>240 degre</item>
+        <item>270 degre</item>
+        <item>300 degre</item>
+        <item>330 degre</item>
+        <item>360 degre</item>
+    </string-array>
+    <string-array name="cbodescriptionphoto">
+        <item>Description pictures</item>
+        <item>Antenna installation</item>
+        <item>Antenna ports</item>
+        <item>Antenna label</item>
+        <item>Sector view</item>
+        <item>Mechanical Tilt</item>
+        <item>Electrical Tilt 900</item>
+        <item>Electrical Tilt 1800</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="cborfdatavalue">
+        <item>select items</item>
+        <item>Antenna label</item>
+        <item>Antenna Height(HBA)</item>
+        <item>Azmuth</item>
+        <item>Mechanical Tilt</item>
+        <item>Electrical Tilt 900</item>
+        <item>Electrical Tilt 1800</item>
+        <item>Tilt on Top of Ant.</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string name="hello_world">Welcome to Africell System</string>
+    <string name="africellsitevisite">Africell site visit from</string>
+    <string name="_44">44</string>
+
+
+    <string-array name="array_action">
+        <item>Modification</item>
+        <item>New Site</item>
+        <item>OM Audit</item>
+        <item>Radio audit</item>
+    </string-array>
+
+    <string-array name="array_antenne">
+        <item>Antenna Info</item>
+        <item>Ports info</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="array_ant_description">
+        <item>select antenna items.</item>
+        <item>Antenna Height(HBA)</item>
+        <item>Antenna Model</item>
+        <item>Antenna View</item>
+        <item>Azmuth</item>
+        <item>Label Africell</item>
+        <item>Ports</item>
+        <item>Sector Obstruction</item>
+    </string-array>
+
+    <string-array name="array_port_description">
+        <item>select port items.</item>
+        <item>RRU Type</item>
+        <item>Electrical Tilt.</item>
+    </string-array>
+
+    <string-array name="array_owner">
+        <item></item>
+        <item>Africell</item>
+        <item>Helios.</item>
+    </string-array>
+
+    <string-array name="array_boolean">
+        <item>-</item>
+        <item>Oui</item>
+        <item>Non</item>
+    </string-array>
+
+    <string-array name="array_vender">
+        <item></item>
+        <item>Ericsson</item>
+        <item>Huawei</item>
+    </string-array>
+    <string-array name="array_ports">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+</resources>
