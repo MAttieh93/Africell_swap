@@ -47,7 +47,7 @@ public class import_exportDB {
             editor.commit();
         }*/
 
-        String DatabaseName = "AfricellDB.db";
+        String DatabaseName = "AfricellDBca";
         File sd = Environment.getExternalStorageDirectory();
         File data = Environment.getDataDirectory();
         FileChannel source=null;

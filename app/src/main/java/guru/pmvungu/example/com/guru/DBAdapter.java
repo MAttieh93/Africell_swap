@@ -234,16 +234,12 @@ public class DBAdapter  {
 
         return db.insert(TABLE_SITECONFIG, null, initialValues);
     }
-
-
-
     public Cursor getsiteconfig()
     {
         return db.query(TABLE_SITECONFIG, new String[] {"sitename_id","sitename","s_latitude","s_longitude","s_configuration",
                         "a_technology","a_model","a_port","idoperation"},
                 null, null, null, null, "sitename");
     }
-
     public Cursor getAntmodel()
     {
        // return db.query(TABLE_SITECONFIG, new String[] {"sitename", "s_configuration","a_model"  },
@@ -256,10 +252,7 @@ public class DBAdapter  {
             cursor.moveToFirst();
         }
         return cursor;
-
     }
-
-
     public Boolean deleteTable(String xtable)
     {
         Boolean result=false;

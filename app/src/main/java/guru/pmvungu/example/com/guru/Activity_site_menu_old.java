@@ -372,34 +372,25 @@ try{
 
             return libclass.getStringForUrl(strURL);
         }
-
         @Override
         protected void onPostExecute(String result) {
             // String xmisdn=result.toString();
             try {
-
                 if (result.indexOf("Error") > 0 || result==null){
                     libclass.popMessage ("Error occur",result);
                     // finish();
                     return;
                 }
-
-
                 FillConfig (result);
                 ///String strSite=parseXmltoString(result);
                // String[] splitSite = strSite.split(";");
                // apiUrl.setListOfSite(splitSite); stockage config dans un var global
-
-
-
             } catch (Exception e) {
                 e.printStackTrace();
 
             }
-
             dialog.dismiss();
         }
-
     }
     private void FillConfig(String listinfo){
         SV_IdOperation="";
@@ -407,27 +398,18 @@ try{
         if (SV_IdOperation.equals("") || SV_IdOperation==null){
             SV_IdOperation=((SV_DateTime.replaceAll(":","")).replaceAll("-","")).replace(" ","");
         }
-
-
-
         // Toast.makeText(getBaseContext(), "Insert Successfull...", Toast.LENGTH_SHORT).show();
-
         //myListviewbutton = (ListView) findViewById(R.id.lvBbutton);
-
        //ArrayList<HashMap<String, String>> listItem = new ArrayList<HashMap<String, String>>();
       // HashMap<String, String> map;
-
         try {
 
             db.open();
-
             // listinfo= listinfo.substring(75).replace("</string>","");
             JSONArray jsonArray = new JSONArray(listinfo);
             String[] subs = new String[jsonArray.length()];
-
             for (int l = 0; l < jsonArray.length(); l++) {
                 JSONObject obj = jsonArray.getJSONObject(l);
-
                  db.insertsiteconfig(obj.getString("Site_Name").toString()
                   ,obj.getString("latitude").toString()
                   ,obj.getString("longitude").toString()
@@ -437,7 +419,6 @@ try{
                   ,obj.getString("Ant_port").toString()
                   ,"",SV_IdOperation
                   );
-
              /*   // if (obj.getString("Name").equals("Roaming")) {
                 map = new HashMap<String, String>();
                 map.put("titre", ""); //empty
@@ -446,18 +427,14 @@ try{
                 map.put("header", ""); //empty
                 listItem.add(map);*/
             }
-
             db.close();
-
             FillListview();
            // SimpleAdapter mSchedule = new SimpleAdapter (this.getBaseContext(), listItem , R.layout.listbuton,
               //     new String[] { "titre","description", "values","header"}, new int[] { R.id.titre,R.id.description, R.id.values,R.id.header});
             // myListviewbutton.setAdapter(mSchedule);
         }
-
         catch (JSONException e) {
             e.printStackTrace();
-
         }
     }
     private ArrayList<String>  defaultButton()
